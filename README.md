@@ -25,8 +25,8 @@ You can try the app by opening the `index.html` file in your browser.
 ## Files
 
 - `index.html`: The HTML structure of the app.
-- `style.css`: The styles for the stopwatch and layout.
-- `app.js`: The JavaScript that handles the functionality of the stopwatch.
+- `main.css`: The styles for the stopwatch and layout.
+- `App.js`: The JavaScript that handles the functionality of the stopwatch.
 
 ## How to Run Locally
 

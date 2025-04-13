@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001d3d;
+  font-family: Teko, sans-serif;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 250px;
+  color: white;
+}
+
+.Btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 95px;
+  color: white;
+  transition: 0.5s ease-in;
+
+}
+
+
+
+.Btns button {
+  cursor: pointer;
+  padding: 5px 25px;
+  font-size: 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #013d67;
+
+}
+
+.Btns button.active {
+  background-color: #83c5be;
+  color: white;
+}
+
+.Btns button.active:hover {
+  scale: 1.07;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+table thead tr,
+table tbody tr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 80px;
+  font-size: 80px;
+}
+
+.lap-table{
+  visibility: visible;
+}
